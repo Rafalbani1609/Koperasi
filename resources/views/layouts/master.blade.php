@@ -42,6 +42,7 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <a href="{{ url('/') }}" class="logo">
+                    <p>Koperasi</p>
                         <span>
                             <img class="img-fluid" src="{{ $logo.'/logo.png' }}" alt="" width="50">
                         </span>
