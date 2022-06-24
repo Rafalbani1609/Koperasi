@@ -100,8 +100,8 @@ File: Main Css File
         display: none; }
 
         .topbar .topbar-left p {
-          margin-top: 13px;
-          font-size: 30px;
+          margin-top: 10px;
+          font-size: 35px;
           font-family:   'Cinzel Decorative';
         }
 
@@ -179,9 +179,10 @@ File: Main Css File
   color: rgba(49, 58, 70, 0.8);
   display: block;
   padding: 12px 20px;
-  margin: 2px 0;
+  margin: 10px 15px 10px 7px;
   font-size: 16px;
-  position: relative; }
+  position: relative; 
+  border-radius: 10px;}
   #sidebar-menu > ul > li > a:hover, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:active {
     color: #313a46;
     text-decoration: none;
@@ -222,7 +223,7 @@ File: Main Css File
     display: inline-block;
     font-size: 18px;
     line-height: 17px;
-    margin: 0 10px 0 3px;
+    margin: 0 10px 0px 3px;
     text-align: center;
     vertical-align: middle;
     width: 20px; }
@@ -232,8 +233,8 @@ File: Main Css File
       margin-right: 0; }
 
 #sidebar-menu > ul > li > a.active {
-  color: #313a46;
-  background-color: whitesmoke; }
+  color: #ffffff;
+  background: linear-gradient(to top, #5d6dc3, #3c86d8); }
 
 .menu-title {
   padding: 12px 20px;
@@ -401,9 +402,10 @@ File: Main Css File
 
 .page-title-box {
   padding: 15px 20px;
-  margin: 0 -25px 30px -25px;
+  margin: 10px -10px 30px -10px;
   background-color: #ffffff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); }
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); 
+  border-radius: 10px;}
   .page-title-box .breadcrumb {
     margin-bottom: 0;
     padding: 0;
